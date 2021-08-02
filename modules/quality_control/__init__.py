@@ -15,6 +15,7 @@ def register():
         qualitycontrol.QualityControlPostproduction,
         production.QualityControlProduction,
         production.QualityShipmentIn,
+          production.ProdShipment,
         module='quality_control', type_='model')
     Pool.register(
         module='quality_control', type_='wizard')

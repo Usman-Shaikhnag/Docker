@@ -40,4 +40,6 @@ class PreProductionLabCritarea(ModelSQL,ModelView):
     gc1 = fields.Char("G.C.1")
     gc2 = fields.Char("G.C.2")
     gc3 = fields.Char("G.C.3")
+
+
     

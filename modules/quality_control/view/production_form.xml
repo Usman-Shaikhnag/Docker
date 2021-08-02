@@ -3,8 +3,7 @@
 this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook" position="before">
-        <!-- <label name="customername"/>
-        <field name="customername"/>  -->
-        <field name="inwardno"/> 
+        <newline/>
+        <field name="inwardno" widget="many2many" colspan="4"/> 
     </xpath>
 </data>
