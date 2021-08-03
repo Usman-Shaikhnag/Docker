@@ -9,6 +9,10 @@ this repository contains the full copyright notices and license terms. -->
         <field name="reactorno"/> 
         <label name="reactorcapacity"/>
         <field name="reactorcapacity"/> 
+        <label name="details"/>
+        <field name="details"/> 
+        <label name="remarks"/>
+        <field name="remarks"/> 
         
     </xpath>
     <xpath expr="/form/field[@name='product']" position="after">

@@ -16,4 +16,18 @@
     <field name="residue"/>
     <label name="loss"/>
     <field name="loss"/>
+    <label name="packaging"/>
+    <field name="packaging"/>
+    <label name="p1"/>
+    <field name="p1"/>
+    <label name="p2"/>
+    <field name="p2"/>
+    <label name="p3"/>
+    <field name="p3"/>
+    <label name="p4"/>
+    <field name="p4"/>
+    <label name="p5"/>
+    <field name="p5"/>
+    <label name="p6"/>
+    <field name="p6"/>
 </form>

@@ -9,6 +9,8 @@ class QualityControlProduction(ModelSQL, ModelView):
     party = fields.Many2One('party.party','Party')
     reactorno = fields.Char('Reactor No')
     reactorcapacity =  fields.Integer('Reactor Capacity')
+    details = fields.Text("Deviation Details")
+    remarks = fields.Text("Remarks")
     temp_analysis = fields.One2Many('temp.analysis.record','temp_table','Temperature and Analysis Record')
     material_balance_table = fields.One2Many('material.balance','balance_table','Material Balance Summary')
     inwardno = fields.Many2Many('prod.shipment.relation',
@@ -70,4 +72,11 @@ class MaterialBalanceSummary(ModelSQL,ModelView):
     aftermain = fields.Char("After Main")
     residue = fields.Char("Residue")
     loss = fields.Char("Loss")
+    packaging = fields.Char("Packaging Details")
+    p1 = fields.Char(" ")
+    p2 = fields.Char(" ")
+    p3 = fields.Char(" ")
+    p4 = fields.Char(" ")
+    p5 = fields.Char(" ")
+    p6 = fields.Char(" ")
     
